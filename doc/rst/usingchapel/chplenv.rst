@@ -879,7 +879,7 @@ Chapel configuration file is found, the definitions of that file are used.
 Variable Priority
 ~~~~~~~~~~~~~~~~~
 
-Variable precedence goes in the following order:
+Variable precedence from higher to lower goes in the following order:
 
 1. Explicit compiler flags: ``chpl --env=value``
 2. Environment variables: ``CHPL_ENV=value``
