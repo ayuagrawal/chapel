@@ -109,3 +109,12 @@ auto-complete the option and add a space, ready for the next option.
 
      % chpl --cac<tab>
      % chpl --cache-remote 
+
+If Z shell user want tab-autocompletion they need to export or copy the 
+$CHPL_HOME/util/_chapel-zsh-completion to their fpath.
+They will also need to add the following into their ~/.zshrc
+
+  .. code-block:: sh
+
+     autoload -U compinit
+     compinit
