@@ -116,5 +116,5 @@ They will also need to add the following into their ~/.zshrc
 
   .. code-block:: sh
 
-     autoload -U compinit
-     compinit
+    autoload -U compinit
+    compinit
